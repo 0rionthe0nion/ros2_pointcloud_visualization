@@ -1,6 +1,7 @@
 # K-means Visualization
 
 ## Overview
+Implemented code that subscribed to a ROS2 Node containing NumPy arrays in the format of [x-coordinate, y-coordinate, z-coordinate, cluster number] 
 
 ## Tech Used
 
