@@ -10,8 +10,11 @@ At the same time, I was learning how ROS2 nodes communicate through publishers a
 Initial implementation was generated with AI assistance but was later modified to become compatable with other nodes coded for the larger goal and to better understand ROS2 nodes.
 
 ## Running the Project
-This projects requires that Foxy ROS2 be installed on 20.04 Ubuntu. If you do not have Foxy ROS2 installed, please follow the official download instructions here: [https://docs.ros.org/en/foxy/Installation/Alternatives/Ubuntu-Development-Setup.html](url)
+This project requires that Foxy ROS2 be installed on 20.04 Ubuntu. If you do not have Foxy ROS2 installed, please follow the official download instructions here: [https://docs.ros.org/en/foxy/Installation/Alternatives/Ubuntu-Development-Setup.html](url)
 
+Download all files and move them into your FOXY ROS2 workspace folder. If you followed the instructions from the link above, move the project into `/ros2_ws/src/`.
+
+To run the main program `numpy_to_pointcloud2_ros2.py`
 ## Tech Used
 - Python
 - Foxy ROS2
@@ -22,7 +25,7 @@ This projects requires that Foxy ROS2 be installed on 20.04 Ubuntu. If you do no
 
 ## Features
 - `setup.py`: ROS2 package configuration
-- `numpy-to-pointcloud2-ros2`: main script that subscribes to a NumPy array, converts each 3D data point in the NumPy array into a PointCloud2 message, and publishes all of the PointCloud2 messages to a topic for RViz2 to subscribe to
+- `numpy_to_pointcloud2_ros2.py`: main script that subscribes to a NumPy array, converts each 3D data point in the NumPy array into a PointCloud2 message, and publishes all of the PointCloud2 messages to a topic for RViz2 to subscribe to
 - `numpy_points_generator.py`: a test script that publishes 300 3D data points with the format [x-coordinate, y-coordinate, z-coordinate, cluster number] in a NumPy array
 
 ## Visualization of Results
