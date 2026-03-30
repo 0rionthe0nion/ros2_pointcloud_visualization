@@ -52,7 +52,7 @@ Download all files and move them into your FOXY ROS2 workspace folder. If you fo
 
 `rviz2`
 
-Add a PointCloud2 display, subscribe to topic `point_cloud` for point visualization, and
+Add a PointCloud2 display, subscribe to topic `point_cloud` for point visualization, and set channel name to `k` to display clusters.
 
 
 ## Tech Used
